@@ -3,23 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="static/img/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="static/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="../static/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../static/css/style.css" />
     <title>Pontos Turísticos no Nordeste</title>
+    <script src="static/js/main.js" defer></script>
   </head>
   <body>
-    <header>
-      <a href="https://rodrigototy.github.io/ETE-PE/tourism-agency/">
-        <img src="static/img/logo-agency.png" alt="Logotipo Terra Brasilis" width="200">
-      </a>
-      <nav>
-        <ul>
-          <li><a href="#">Passagens</a></li>
-          <li><a href="#">Hospedagem</a></li>
-          <li><a href="#">Pontos Turísticos</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div id="header"></div>
     <main>
       <div class="subtitle">
         <h1>Conheça os pontos turísticos operados pela Terra Brasilis</h1>
@@ -41,7 +35,11 @@
           alt="Parque Nacional dos Lençóis Maranhenses"
         />
         <div class="texto">
-          <h3><a href="lencois-maranhenses.html">Parque Nacional dos Lençóis Maranhenses</a></h3>
+          <h3>
+            <a href="lencois-maranhenses.html"
+              >Parque Nacional dos Lençóis Maranhenses</a
+            >
+          </h3>
           <p>Uma incrível paisagem de dunas e lagoas no Maranhão.</p>
         </div>
       </div>
@@ -77,7 +75,10 @@
       </div>
 
       <div class="card">
-        <img src="static/img/chapada-diamantina.jpg" alt="Chapada Diamantina" />
+        <img
+          src="static/img/chapada-diamantina.jpg"
+          alt="Chapada Diamantina"
+        />
         <div class="texto">
           <h3>Chapada Diamantina</h3>
           <p>Uma região montanhosa com cachoeiras e grutas na Bahia.</p>
@@ -104,7 +105,10 @@
       </div>
 
       <div class="card">
-        <img src="static/img/delta-do-parnaíba.jpg" alt="Delta do Parnaíba" />
+        <img
+          src="static/img/delta-do-parnaíba.jpg"
+          alt="Delta do Parnaíba"
+        />
         <div class="texto">
           <h3>Delta do Parnaíba</h3>
           <p>Um delta de rios e manguezais no Piauí.</p>
@@ -119,29 +123,6 @@
         </div>
       </div>
     </main>
-    <footer>
-      <div class="about">
-        <img src="static/img/logo-agency.png" alt="Logotipo Terra Brasilis" height="120"/>
-        <div>
-          <h2>Sobre nós</h2>
-          <p>
-            Terra Brasilis é um site que ajuda você a planejar sua viagem dentro
-            do Brasil, desde a compra das passagens, até a visita aos pontos
-            turísticos mais importantes de cada região!
-          </p>
-        </div>
-        <div class="redes">
-          <p>Siga-nos nas redes sociais</p>
-        <ul>
-          <li><a href="https://facebook.com">Facebook</a></li>
-          <li><a href="https://instagram.com">Instagram</a></li>
-          <li><a href="https://linkedin.com">Linkedin</a></li>
-        </ul></div>
-      </div>
-      <a class="repository"
-        href="https://github.com/rodrigototy/ETE-PE/tree/main/tourism-agency"
-        >Veja o repositório da página no GitHub</a
-      ><br /><br />
-    </footer>
+    <div id="footer"></div>
   </body>
 </html>

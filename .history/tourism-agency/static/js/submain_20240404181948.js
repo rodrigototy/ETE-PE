@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
   // Carrega o footer
-  fetch("../static/templates/submain/footer.html")
+  fetch("../static/templates/footer.html")
     .then((response) => response.text())
     .then((data) => {
       footer.innerHTML = data;

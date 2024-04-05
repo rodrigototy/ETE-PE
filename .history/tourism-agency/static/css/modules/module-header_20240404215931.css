@@ -1,0 +1,32 @@
+/* Estilizar o header */
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  

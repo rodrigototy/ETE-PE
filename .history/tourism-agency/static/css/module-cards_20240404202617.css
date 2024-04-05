@@ -1,0 +1,10 @@
+@import url('module-reset.css');
+@import url('style.css');
+
+main 
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

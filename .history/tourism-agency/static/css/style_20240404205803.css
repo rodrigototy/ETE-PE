@@ -1,0 +1,75 @@
+/* style.css */
+
+/* Reset de estilos padrão */
+@import url('module-reset.css');
+
+/* Estilos globais */
+
+/* Estilizar o header */
+
+/* Estilizar o h1 do main */
+
+/* Estilizar os cards */
+.card {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.card img {
+  max-width: 300px;
+  height: auto;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  padding-left: 10px;
+}
+
+/* Estilizar o footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 0px 20px;
+  border-radius: 20px;
+}
+
+footer h2 {
+  margin: 10px;
+}
+
+footer p {
+  margin: 0px 0px 20px 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Estilizar o footer ul */
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer li {
+  margin-left: 10px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+}
+
+.about img {
+  border-radius: 2rem;
+}

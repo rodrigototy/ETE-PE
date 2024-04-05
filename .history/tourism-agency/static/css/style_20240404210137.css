@@ -1,0 +1,18 @@
+/* style.css */
+
+/* Reset de estilos padrão */
+@import url('modules/module-reset.css');
+
+/* Estilos globais */
+@import url('modules/module-global.css');
+
+/* Estilizar o header e o footer */
+@import url('modules/header-footer.css'); 
+
+/* Estilizar o h1 do main */
+@import url('modules/module-main.css');
+
+/* Estilizar os cards */
+@import url('modules/
+
+/* Estilizar o footer */

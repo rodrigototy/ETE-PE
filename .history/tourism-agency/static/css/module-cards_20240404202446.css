@@ -1,0 +1,6 @@
+@import url('module-reset.css');
+@import url('style.css');
+.cards {
+    display: flex;
+    justify-content: space-between;
+}

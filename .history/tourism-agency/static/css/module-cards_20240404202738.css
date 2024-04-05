@@ -1,0 +1,9 @@
+@import url('module-reset.css');
+@import url('style.css');
+
+main {
+    display: flex;
+}
+
+.card {
+}

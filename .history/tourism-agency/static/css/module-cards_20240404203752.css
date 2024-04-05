@@ -1,0 +1,12 @@
+@import url("module-reset.css");
+@import url("style.css");
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    align-self:stretch ;
+}

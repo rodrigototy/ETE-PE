@@ -1,0 +1,43 @@
+/* Estilizar o header */
+header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 0;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+  padding: 5px 20px;
+  border-radius: 3rem;
+}
+
+nav {
+  padding: 10px 50px;
+  background-color: black;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  background-color: red;
+  display: flex;
+  justify-self: center;
+  margin: ;
+}
+
+nav ul li {
+  margin-left: 20px;
+  text-align: center;
+  background-color: blue;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}

@@ -1,0 +1,17 @@
+/* Estilizar os cards */
+.cards {
+  di
+}
+.card {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.card img {
+  max-width: 300px;
+  height: auto;
+}

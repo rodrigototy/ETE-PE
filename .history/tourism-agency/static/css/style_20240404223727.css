@@ -12,3 +12,6 @@
 
 /* Estilizar o h1 do main */
 @import url('modules/module-main.css');
+
+/* Estilizar os page cards */
+@import url('modules/module-page-cards.css');

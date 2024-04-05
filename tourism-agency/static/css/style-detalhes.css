@@ -12,3 +12,5 @@
 
 /* Estilizar o h1 do main */
 @import url('modules/module-main.css');
+
+@import url('modules/module-detalhes.css');

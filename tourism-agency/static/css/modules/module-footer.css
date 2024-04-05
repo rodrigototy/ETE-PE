@@ -7,7 +7,6 @@ footer {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  max-width: 1400px;
 }
 
 footer img {
@@ -42,4 +41,8 @@ footer li {
 
 .about img {
   border-radius: 2rem;
+}
+
+.repository {
+  margin-top: 1rem;
 }

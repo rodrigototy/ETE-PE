@@ -8,5 +8,5 @@ main h1 {
   main {
     display: flex;
     flex-direction: column;
-    max-width: 1400px;
+    justify-items: center;
   }

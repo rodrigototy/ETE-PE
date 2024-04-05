@@ -7,10 +7,12 @@ document.addEventListener("DOMContentLoaded", function () {
   console.log(window.location.pathname);
 
   if (
+    window.location.pathname === "/ETE-PE/tourism-agency/" ||
+    window.location.pathname === "/ETE-PE/tourism-agency/index.html" ||
     window.location.pathname === "/tourism-agency/" ||
     window.location.pathname === "/tourism-agency/index.html" ||
-    window.location.pathname === "/index.html" ||
-    window.location.pathname === "/"
+    window.location.pathname === "/" ||
+    window.location.pathname === "/index.html"
   ) {
     templatesPath = "static/templates/";
     imagePath = "static/img/";

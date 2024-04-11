@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PNTAW 2024.1 - Unidade 1</title>
+</head>
+<body>
+  <header><h1>ATIVIDADE PRÁTICA DO ENCONTRO PRESENCIAL</h1></header>
+  <main>
+  </main>
+  <footer>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var main = document.querySelector('main');
+        var paragraphs = [
+          "Governo do Estado de Pernambuco",
+          "Secretaria de Educação e Esportes",
+          "Curso: Desenvolvimento de Sistemas",
+          "Módulo: Desenvolvimento Web",
+          "Disciplina: Programação em Novas Tecnologias Avançadas para Web",
+          "Unidade 1 - Conhecer os fundamentos do JavaScript",
+          "Discente: Rodrigo José da Silva",
+          "Recife, 11 de abril de 2024."
+        ];
+
+        paragraphs.forEach(function(text) {
+          var paragraph = document.createElement('p');
+          paragraph.textContent = text;
+          main.appendChild(paragraph);
+        });
+
+        alert(`Meus Parabéns!!!
+        Você concluiu a atividade proposta
+        para a unidade 01!`); //Exemplo de mensagem de alerta
+      });
+    </script>
+  </footer>
+</body>
+</html>

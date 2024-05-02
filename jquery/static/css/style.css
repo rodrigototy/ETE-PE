@@ -1,0 +1,14 @@
+* {
+  margin: 8px;
+  padding: 0px;
+}
+
+body {
+  background-color: #151518;
+  color: #dddfdf;
+  text-align: center;
+}
+
+select {
+  width: 170px;
+}

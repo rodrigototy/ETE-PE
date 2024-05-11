@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .circulo {
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            border-radius: 50%;
+            background: rgb(50, 100, 150);
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $("[name='start']").on("click", Descer);
+            $("[name='stop']").on("click", PararEfeito);
+        });
+        function PararEfeito() {
+            $(".circulo").stop();
+            $("[name='stop']").attr("disabled", true);
+            $("[name='start']").attr("disabled", false);
+        }
+        function Descer() {
+            $("[name='stop']").attr("disabled", false);
+            $("[name='start']").attr("disabled", true);
+            $(".circulo").animate({ marginTop: '0px', opacity: '1.0', height: '100px' }, Subir);
+        }
+        function Subir() {
+            $(".circulo").animate({ marginTop: '200px', opacity: '0.5', height: '90px' }, Descer);
+        }
+    </script>
+</head>
+
+<body>
+    <button name="start">Aplicar Efeito</button>
+    <button name="stop">Parar Efeito</button>
+    <br></br>
+    <div class="circulo"></div>
+</body>
+
+</html>
